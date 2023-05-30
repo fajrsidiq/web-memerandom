@@ -40,7 +40,7 @@
     </style>
 </head>
 <body>
-    <h1>Random Meme</h1>
+    <h1>Random Meme Template</h1>
 
     <img src="{{ $meme['url'] }}" alt="{{ $meme['name'] }}">
     <p>Name: {{ $meme['name'] }}</p>
