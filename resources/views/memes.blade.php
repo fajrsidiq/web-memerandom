@@ -48,7 +48,7 @@
     <p>Dimensions: {{ $meme['width'] }} x {{ $meme['height'] }}</p>
     <p>Box Count: {{ $meme['box_count'] }}</p> -->
 
-    <button onclick="refreshPage()">Refresh</button>
+    <button onclick="refreshPage()">Random</button>
 
     <script>
         function refreshPage() {
